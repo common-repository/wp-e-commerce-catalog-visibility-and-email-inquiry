@@ -1,0 +1,1053 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP e-Commerce Catalog Visibility Email inquiry PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-24 13:34+0700\n"
+"PO-Revision-Date: 2015-08-24 13:35+0700\n"
+"Last-Translator: Nguyen Cong Tuan <mr.nguyencongtuan@gmail.com>\n"
+"Language-Team: a3rev\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-interface.php:129
+msgid "Settings successfully saved."
+msgstr ""
+
+#: admin/admin-interface.php:137
+msgid "Error: Settings can not save."
+msgstr ""
+
+#: admin/admin-interface.php:145
+msgid "Settings successfully reseted."
+msgstr ""
+
+#: admin/admin-interface.php:166
+msgid "Thin"
+msgstr ""
+
+#: admin/admin-interface.php:167
+msgid "Thin/Italic"
+msgstr ""
+
+#: admin/admin-interface.php:168
+msgid "Normal"
+msgstr ""
+
+#: admin/admin-interface.php:169
+msgid "Italic"
+msgstr ""
+
+#: admin/admin-interface.php:170
+msgid "Bold"
+msgstr ""
+
+#: admin/admin-interface.php:171
+msgid "Bold/Italic"
+msgstr ""
+
+#: admin/admin-interface.php:181
+msgid "Solid"
+msgstr ""
+
+#: admin/admin-interface.php:182
+msgid "Double"
+msgstr ""
+
+#: admin/admin-interface.php:183
+msgid "Dashed"
+msgstr ""
+
+#: admin/admin-interface.php:184
+msgid "Dotted"
+msgstr ""
+
+#: admin/admin-interface.php:185
+msgid "Groove"
+msgstr ""
+
+#: admin/admin-interface.php:186
+msgid "Ridge"
+msgstr ""
+
+#: admin/admin-interface.php:187
+msgid "Inset"
+msgstr ""
+
+#: admin/admin-interface.php:188
+msgid "Outset"
+msgstr ""
+
+#: admin/admin-interface.php:1360 admin/admin-interface.php:1450
+#: admin/admin-interface.php:1479
+#: admin/settings/email-inquiry-global-settings.php:250
+#: admin/settings/email-inquiry-global-settings.php:261
+#: admin/settings/email-inquiry-global-settings.php:297
+#: admin/settings/email-inquiry-global-settings.php:314
+#: admin/settings/email-inquiry-global-settings.php:331
+#: admin/settings/rules-roles-settings.php:253
+#: admin/settings/rules-roles-settings.php:264
+#: admin/settings/rules-roles-settings.php:300
+#: admin/settings/rules-roles-settings.php:311
+#: admin/settings/rules-roles-settings.php:347
+#: classes/class-pcf-metabox.php:162 classes/class-pcf-metabox.php:168
+#: classes/class-pcf-metabox.php:183 classes/class-pcf-metabox.php:189
+#: classes/class-pcf-metabox.php:211 classes/class-pcf-metabox.php:217
+#: classes/class-pcf-metabox.php:232
+msgid "ON"
+msgstr ""
+
+#: admin/admin-interface.php:1361 admin/admin-interface.php:1451
+#: admin/admin-interface.php:1480
+#: admin/settings/email-inquiry-global-settings.php:251
+#: admin/settings/email-inquiry-global-settings.php:262
+#: admin/settings/email-inquiry-global-settings.php:298
+#: admin/settings/email-inquiry-global-settings.php:315
+#: admin/settings/email-inquiry-global-settings.php:332
+#: admin/settings/rules-roles-settings.php:254
+#: admin/settings/rules-roles-settings.php:265
+#: admin/settings/rules-roles-settings.php:301
+#: admin/settings/rules-roles-settings.php:312
+#: admin/settings/rules-roles-settings.php:348
+#: classes/class-pcf-metabox.php:232
+msgid "OFF"
+msgstr ""
+
+#: admin/admin-interface.php:1521
+msgid "Width"
+msgstr ""
+
+#: admin/admin-interface.php:1523
+msgid "Height"
+msgstr ""
+
+#: admin/admin-interface.php:1525
+msgid "Hard Crop"
+msgstr ""
+
+#: admin/admin-interface.php:1602
+msgid "-- Default Fonts --"
+msgstr ""
+
+#: admin/admin-interface.php:1613
+msgid "-- Google Fonts --"
+msgstr ""
+
+#: admin/admin-interface.php:1654
+msgid "Preview your customized typography settings"
+msgstr ""
+
+#: admin/admin-interface.php:1788 admin/admin-interface.php:2047
+msgid "Preview your customized border settings"
+msgstr ""
+
+#: admin/admin-interface.php:1797 admin/admin-interface.php:2038
+msgid "Rounded"
+msgstr ""
+
+#: admin/admin-interface.php:1798 admin/admin-interface.php:2039
+msgid "Square"
+msgstr ""
+
+#: admin/admin-interface.php:1808 admin/admin-interface.php:2052
+msgid "Top Left Corner"
+msgstr ""
+
+#: admin/admin-interface.php:1828 admin/admin-interface.php:2072
+msgid "Top Right Corner"
+msgstr ""
+
+#: admin/admin-interface.php:1848 admin/admin-interface.php:2092
+msgid "Bottom Right Corner"
+msgstr ""
+
+#: admin/admin-interface.php:1868 admin/admin-interface.php:2112
+msgid "Bottom Left Corner"
+msgstr ""
+
+#: admin/admin-interface.php:1961
+msgid "Preview your customized border styles settings"
+msgstr ""
+
+#: admin/admin-interface.php:2173
+#: admin/settings/email-inquiry-button-style-settings.php:398
+#: admin/settings/email-inquiry-contact-form-global-settings.php:216
+msgid "YES"
+msgstr ""
+
+#: admin/admin-interface.php:2174
+#: admin/settings/email-inquiry-button-style-settings.php:399
+#: admin/settings/email-inquiry-contact-form-global-settings.php:217
+msgid "NO"
+msgstr ""
+
+#: admin/admin-interface.php:2188
+msgid "Horizontal Shadow"
+msgstr ""
+
+#: admin/admin-interface.php:2206
+msgid "Vertical Shadow"
+msgstr ""
+
+#: admin/admin-interface.php:2224
+msgid "Blur Distance"
+msgstr ""
+
+#: admin/admin-interface.php:2242
+msgid "Spread Size"
+msgstr ""
+
+#: admin/admin-interface.php:2260
+msgid "INNER"
+msgstr ""
+
+#: admin/admin-interface.php:2261
+msgid "OUTER"
+msgstr ""
+
+#: admin/admin-interface.php:2279
+msgid "Preview your customized box shadow settings"
+msgstr ""
+
+#: admin/admin-interface.php:2515
+msgid "Save changes"
+msgstr ""
+
+#: admin/admin-interface.php:2516
+msgid "Reset Settings"
+msgstr ""
+
+#: admin/admin-pages/admin-email-inquiry-page.php:63
+#: admin/admin-pages/admin-email-inquiry-page.php:64
+#: classes/class-pcf-metabox.php:152
+msgid "Email Inquiry"
+msgstr ""
+
+#: admin/admin-pages/admin-rules-roles-page.php:63
+#: admin/admin-pages/admin-rules-roles-page.php:64 admin/pcf-init.php:205
+msgid "WPEC Catalog & Email Pro"
+msgstr ""
+
+#: admin/admin-pages/admin-rules-roles-page.php:78
+#: admin/admin-pages/admin-rules-roles-page.php:79
+#: admin/tabs/rules-roles-tab.php:78
+msgid "Rules & Roles"
+msgstr ""
+
+#: admin/admin-ui.php:133
+#, php-format
+msgid "Settings inside this yellow border are %s Features."
+msgstr ""
+
+#: admin/admin-ui.php:135
+#, php-format
+msgid ""
+"Upgrade to the <a href=\"%s\" target=\"_blank\">%s</a> to activate these "
+"settings."
+msgstr ""
+
+#: admin/admin-ui.php:137 admin/admin-ui.php:139
+msgid "Pro Version"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:149
+msgid "Upload"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:169
+msgid "View File"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:188
+msgid "Use this Image"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:189
+msgid "Use as"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:199
+msgid "Previously Uploaded"
+msgstr ""
+
+#: admin/pcf-init.php:8 admin/pcf-init.php:214
+msgid ""
+"Connection Error! Could not reach the a3API on Amazon Cloud, the network may "
+"be busy. Please try again in a few minutes."
+msgstr ""
+
+#: admin/pcf-init.php:232 upgrade/pcf-upgrade.php:153
+msgid "Error: "
+msgstr ""
+
+#: admin/pcf-init.php:238
+msgid "Thank you. This Authorization Key is valid."
+msgstr ""
+
+#: admin/pcf-init.php:276
+msgid "No find the encryp.inc file. Please copy encryp.inc file to folder"
+msgstr ""
+
+#: admin/pcf-init.php:281
+msgid "encryp.inc was modified. Please keep it by default"
+msgstr ""
+
+#: admin/pcf-init.php:288 upgrade/pcf-upgrade.php:32
+msgid "Enter Your Plugin Authorization Key"
+msgstr ""
+
+#: admin/pcf-init.php:293 upgrade/pcf-upgrade.php:32
+msgid "Authorization Key"
+msgstr ""
+
+#: admin/pcf-init.php:295
+msgid "Validate"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:92
+msgid "Button Style Settings successfully saved."
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:93
+msgid "Error: Button Style Settings can not save."
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:94
+msgid "Button Style Settings successfully reseted."
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:163
+#: admin/tabs/email-inquiry-button-style-tab.php:78
+msgid "Button Style"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:207
+msgid "Email Inquiry Button / Hyperlink"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:211
+#: classes/class-pcf-metabox.php:252
+msgid "Button or Hyperlink Text"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:218
+#: classes/class-pcf-metabox.php:254
+msgid "Button"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:219
+msgid "Hyperlink"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:222
+msgid "Relative Position"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:223
+msgid "Position relative to add to cart button location"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:229
+msgid "Below"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:230
+msgid "Above"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:233
+msgid "Button or Hyperlink Margin"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:239
+msgid "Top"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:244
+msgid "Bottom"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:250
+msgid "Left"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:256
+msgid "Right"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:270
+msgid "Email Inquiry Button Style"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:275
+#: classes/class-pcf-metabox.php:284
+msgid "Button Title"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:276
+msgid "&lt;empty&gt; for default 'Product Enquiry' or enter text"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:279
+#: classes/class-pcf-functions.php:382 classes/class-pcf-hook.php:180
+#: classes/class-pcf-hook.php:291
+msgid "Product Enquiry"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:282
+#: admin/settings/email-inquiry-popup-form-style-settings.php:222
+msgid "Button Padding"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:283
+#: admin/settings/email-inquiry-popup-form-style-settings.php:223
+msgid "Padding from Button text to Button border"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:288
+#: admin/settings/email-inquiry-popup-form-style-settings.php:228
+msgid "Top/Bottom"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:293
+#: admin/settings/email-inquiry-popup-form-style-settings.php:233
+msgid "Left/Right"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:299
+#: admin/settings/email-inquiry-popup-form-style-settings.php:185
+#: admin/settings/email-inquiry-popup-form-style-settings.php:239
+msgid "Background Colour"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:300
+#: admin/settings/email-inquiry-button-style-settings.php:307
+#: admin/settings/email-inquiry-button-style-settings.php:314
+#: admin/settings/email-inquiry-popup-form-style-settings.php:186
+#: admin/settings/email-inquiry-popup-form-style-settings.php:240
+#: admin/settings/email-inquiry-popup-form-style-settings.php:247
+#: admin/settings/email-inquiry-popup-form-style-settings.php:254
+msgid "Default"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:306
+#: admin/settings/email-inquiry-popup-form-style-settings.php:246
+msgid "Background Colour Gradient From"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:313
+#: admin/settings/email-inquiry-popup-form-style-settings.php:253
+msgid "Background Colour Gradient To"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:320
+#: admin/settings/email-inquiry-popup-form-style-settings.php:260
+msgid "Button Border"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:326
+#: admin/settings/email-inquiry-popup-form-style-settings.php:266
+msgid "Button Font"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:332
+#: admin/settings/email-inquiry-popup-form-style-settings.php:272
+msgid "Button Shadow"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:338
+msgid "CSS Class"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:339
+#: admin/settings/email-inquiry-popup-form-style-settings.php:291
+msgid "Enter your own button CSS class"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:346
+msgid "Hyperlink Styling"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:351
+msgid "Text Before"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:352
+msgid "&lt;empty&gt; for default 'no text' or add text to prepent link text"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:358
+msgid "Hyperlink Text"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:359
+msgid "&lt;empty&gt; for default 'Click Here' or your own text"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:362
+#: classes/class-pcf-functions.php:393 classes/class-pcf-hook.php:298
+msgid "Click Here"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:365
+msgid "Trailing Text"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:366
+msgid "&lt;empty&gt; for default 'no text' or add text to trail linked text"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:372
+msgid "Hyperlink Font"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:379
+msgid "Hyperlink hover Colour"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:386
+msgid "Reset Products Button Style"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:390
+msgid "Global Re-Set"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:391
+msgid ""
+"Set to Yes and Save Changes will reset ALL products that have custom Button "
+"or Hyperlink Text settings to the settings made above."
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:411
+msgid "Tip"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:411
+msgid ""
+"If you see margin between the add to cart button and the email button before "
+"adding a value here that margin is added by your theme. Increasing the "
+"margin here will add to the themes default button margin."
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:413
+#: admin/settings/email-inquiry-global-settings.php:347
+#: admin/settings/rules-roles-settings.php:363
+#: admin/settings/rules-roles-settings.php:432
+msgid "Don't show again"
+msgstr ""
+
+#: admin/settings/email-inquiry-button-style-settings.php:414
+#: admin/settings/email-inquiry-global-settings.php:348
+#: admin/settings/rules-roles-settings.php:364
+#: admin/settings/rules-roles-settings.php:433
+msgid "Dismiss"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:81
+msgid "Default Form Settings successfully saved."
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:82
+msgid "Error: Default Form Settings can not save."
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:83
+msgid "Default Form Settings successfully reseted."
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:137
+#: admin/settings/email-inquiry-global-settings.php:168
+#: admin/settings/rules-roles-settings.php:163
+#: admin/tabs/email-inquiry-settings-tab.php:78 classes/class-pcf-hook.php:543
+msgid "Settings"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:181
+msgid "Built-in Contact Form"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:185
+msgid "Email 'From' Settings"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:186
+msgid ""
+"The following options affect the sender (email address and name) used in "
+"WPEC Product Email Inquiries."
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:191
+msgid "\"From\" Name"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:192
+msgid "&lt;empty&gt; defaults to Site Title"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:198
+msgid "\"From\" Email Address"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:199
+#: admin/settings/email-inquiry-contact-form-global-settings.php:227
+msgid "&lt;empty&gt; defaults to WordPress admin email address"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:205
+msgid "Sender 'Request A Copy'"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:209
+msgid "Send Copy to Sender"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:210
+msgid ""
+"Gives users a checkbox option to send a copy of the Inquiry email to "
+"themselves"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:221
+msgid "Email Delivery"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:226
+#: classes/class-pcf-metabox.php:239
+msgid "Inquiry Email goes to"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:233
+msgid "CC"
+msgstr ""
+
+#: admin/settings/email-inquiry-contact-form-global-settings.php:234
+msgid "&lt;empty&gt; defaults to 'no copy sent' or add an email address"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:92
+msgid "Email Inquiry Settings successfully saved."
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:93
+msgid "Error: Email Inquiry Settings can not save."
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:94
+msgid "Email Inquiry Settings successfully reseted."
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:217
+#: admin/settings/rules-roles-settings.php:214
+msgid "Trouble Shooting"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:222
+#: admin/settings/rules-roles-settings.php:219
+msgid "WPEC Theme Compatibility"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:229
+#: admin/settings/rules-roles-settings.php:226
+msgid "SHOW"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:230
+#: admin/settings/rules-roles-settings.php:227
+msgid "HIDE"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:233
+msgid ""
+"The Email Inquiry Button / Hyperlink text will not work if the bespoke theme "
+"you are using removes or replaces (with a custom function) 2 core WP e-"
+"Commerce functions and does not use the WP e-Commerce template structure and "
+"hierarchy. The 2 core functions required are:"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:233
+msgid ""
+"<strong>Note:</strong> The Email Inquiry Button shows just fine in the "
+"Default WordPress theme. You will only have an issue where a theme dev has "
+"made customized WP e-Commerce templates and functions and not followed the "
+"WP e-Commerce Codex. If this is the case you should change themes."
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:239
+#: classes/class-pcf-metabox.php:206
+msgid "Product Page Rule: Show Email Inquiry Button"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:243
+#: admin/settings/rules-roles-settings.php:246
+#: admin/settings/rules-roles-settings.php:293
+#: classes/class-pcf-metabox.php:161 classes/class-pcf-metabox.php:182
+#: classes/class-pcf-metabox.php:209
+msgid "Apply for all users before log in"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:254
+#: admin/settings/rules-roles-settings.php:257
+#: admin/settings/rules-roles-settings.php:304
+#: classes/class-pcf-metabox.php:166 classes/class-pcf-metabox.php:187
+#: classes/class-pcf-metabox.php:215
+msgid "Apply by user role after log in"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:273
+#: admin/settings/rules-roles-settings.php:276
+#: admin/settings/rules-roles-settings.php:322
+#: classes/class-pcf-metabox.php:170 classes/class-pcf-metabox.php:191
+#: classes/class-pcf-metabox.php:219
+msgid "Choose Roles"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:286
+msgid "Product Cards"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:290
+#: classes/class-pcf-metabox.php:231
+msgid "Email Inquiry Feature"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:291
+msgid "ON to show Button / Link Text on Product Cards (grid view) display."
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:302
+#: admin/settings/rules-roles-settings.php:335
+msgid "Product Page Rules Reset:"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:306
+#: admin/settings/rules-roles-settings.php:339
+msgid "Reset All Products"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:307
+#: admin/settings/rules-roles-settings.php:340
+msgid ""
+"<strong>Warning:</strong> Set to Yes and Save Changes will reset ALL custom "
+"Product Page and Product Card Rules and Roles on ALL products back to the "
+"admin panels Global settings."
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:319
+msgid "House Keeping :"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:323
+msgid "Clean up on Deletion"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:324
+msgid ""
+"On deletion (not deactivate) the plugin will completely remove all tables "
+"and data it created, leaving no trace it was ever here."
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:345
+#: admin/settings/rules-roles-settings.php:361
+#: admin/settings/rules-roles-settings.php:430
+msgid "Note"
+msgstr ""
+
+#: admin/settings/email-inquiry-global-settings.php:345
+msgid ""
+"If you do not apply the Show Email Inquiry Button Rule to your role i.e. "
+"'administrator' you will need to either log out or open the site in another "
+"browser where you are not logged in to see the Email Inquiry Button feature "
+"is activated."
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:81
+msgid "Default Form Style Settings successfully saved."
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:82
+msgid "Error: Default Form Style Settings can not save."
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:83
+msgid "Default Form Style Settings successfully reseted."
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:137
+msgid "Default Form Style"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:181
+msgid "Form Background Colour"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:193
+msgid "Form Title"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:197
+msgid "Header Title"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:198
+msgid "&lt;empty&gt; and the form title will be the Button title"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:204
+msgid "Title Font"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:211
+msgid "Form Send / Submit Button"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:215
+msgid "Send Button Title"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:216
+msgid "&lt;empty&gt; for default SEND"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:219
+#: classes/class-pcf-functions.php:360 classes/class-pcf-hook.php:314
+msgid "SEND"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:279
+msgid "Style Form With Theme CSS"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:283
+msgid "Form CSS Class"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:284
+msgid "&lt;empty&gt; for default or enter custom form CSS"
+msgstr ""
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:290
+msgid "Button CSS Class"
+msgstr ""
+
+#: admin/settings/email-inquiry-success-message-settings.php:81
+msgid "Success Message successfully saved."
+msgstr ""
+
+#: admin/settings/email-inquiry-success-message-settings.php:82
+msgid "Error: Success Message can not save."
+msgstr ""
+
+#: admin/settings/email-inquiry-success-message-settings.php:83
+msgid "Success Message successfully reseted."
+msgstr ""
+
+#: admin/settings/email-inquiry-success-message-settings.php:137
+#: admin/settings/email-inquiry-success-message-settings.php:185
+msgid "Success Message"
+msgstr ""
+
+#: admin/settings/email-inquiry-success-message-settings.php:181
+msgid "Success Message Setup"
+msgstr ""
+
+#: admin/settings/email-inquiry-success-message-settings.php:186
+msgid "Message that user will see after their Inquiry is sent."
+msgstr ""
+
+#: admin/settings/email-inquiry-success-message-settings.php:190
+#: classes/class-pcf-functions.php:159
+msgid ""
+"Thanks for your inquiry - we'll be in touch with you as soon as possible!"
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:92
+msgid "Rules & Roles Settings successfully saved."
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:93
+msgid "Error: Rules & Roles Settings can not save."
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:94
+msgid "Rules & Roles Settings successfully reseted."
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:230
+msgid ""
+"Product Page Rules 'Hide Cart' , 'Hide Price' cannot work if the bespoke "
+"theme you are using removes or replaces (with a custom function) 2 core WP e-"
+"Commerce functions and does not use the WP e-Commerce template structure and "
+"hierarchy. The 2 core functions required are:"
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:230
+msgid ""
+"<strong>Note:</strong> All Product Page Rules work just fine in the Default "
+"WordPress theme. You will only have an issue where a theme dev has made "
+"customized WP e-Commerce templates and functions and not followed the WP e-"
+"Commerce Codex. If this is the case you should consider using another theme."
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:236
+msgid "Product Page Rules:"
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:237
+msgid ""
+"Product Page Rules apply a single action Rule to all product pages which can "
+"be filtered on a per User Role basis. These Rules can also be varied on a "
+"product by product basis from each product edit page."
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:242
+#: classes/class-pcf-metabox.php:158
+msgid "Product Page Rule: Hide 'Add to Cart'"
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:289
+#: classes/class-pcf-metabox.php:179
+msgid "Product Page Rule: Hide Price"
+msgstr ""
+
+#: admin/settings/rules-roles-settings.php:361
+#: admin/settings/rules-roles-settings.php:430
+msgid ""
+"If you do not apply Rules to your role i.e. 'administrator' you will need to "
+"either log out or open the site in another browser where you are not logged "
+"in to see the Rule feature is activated."
+msgstr ""
+
+#: admin/tabs/email-inquiry-default-contact-form-tab.php:78
+msgid "Default Form"
+msgstr ""
+
+#: classes/class-pcf-functions.php:171 classes/class-pcf-functions.php:285
+msgid "Blog Title"
+msgstr ""
+
+#: classes/class-pcf-functions.php:198
+msgid "Email inquiry for"
+msgstr ""
+
+#: classes/class-pcf-functions.php:199
+msgid "[Copy]: Email inquiry for"
+msgstr ""
+
+#: classes/class-pcf-functions.php:207 classes/class-pcf-hook.php:329
+msgid "Name"
+msgstr ""
+
+#: classes/class-pcf-functions.php:213 classes/class-pcf-hook.php:332
+msgid "Email Address"
+msgstr ""
+
+#: classes/class-pcf-functions.php:219 classes/class-pcf-hook.php:335
+msgid "Phone"
+msgstr ""
+
+#: classes/class-pcf-functions.php:224
+msgid "Product Name"
+msgstr ""
+
+#: classes/class-pcf-functions.php:229 classes/class-pcf-hook.php:341
+msgid "Message"
+msgstr ""
+
+#: classes/class-pcf-functions.php:268
+msgid "Sorry, this product don't enable email inquiry."
+msgstr ""
+
+#: classes/class-pcf-hook.php:338
+msgid "Subject"
+msgstr ""
+
+#: classes/class-pcf-hook.php:346
+msgid "Send a copy of this email to myself."
+msgstr ""
+
+#: classes/class-pcf-hook.php:456
+msgid "Please enter your Name"
+msgstr ""
+
+#: classes/class-pcf-hook.php:460
+msgid "Please enter valid Email address"
+msgstr ""
+
+#: classes/class-pcf-hook.php:464
+msgid "Please enter your Phone"
+msgstr ""
+
+#: classes/class-pcf-hook.php:537
+msgid "Documentation"
+msgstr ""
+
+#: classes/class-pcf-hook.php:538
+msgid "Support"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:17
+msgid "Email & Cart"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:142
+msgid "Reset Product Options"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:144
+msgid "Check to reset this product setting to the Global Settings"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:151
+msgid "Cart & Price"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:228
+msgid "Product Card"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:232
+msgid "ON to show Button / Link Text on this Product's Card."
+msgstr ""
+
+#: classes/class-pcf-metabox.php:236
+msgid "Email Delivery Options"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:244
+msgid "Copy to"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:249
+msgid "Inquiry Button / Hyperlink Options"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:254
+msgid "Link"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:263
+msgid "Text before"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:268
+msgid "Hyperlink text"
+msgstr ""
+
+#: classes/class-pcf-metabox.php:273
+msgid "Trailing text"
+msgstr ""
+
+#: upgrade/pcf-upgrade.php:32
+msgid "or"
+msgstr ""
+
+#: upgrade/pcf-upgrade.php:32
+msgid "Purchase one now"
+msgstr ""

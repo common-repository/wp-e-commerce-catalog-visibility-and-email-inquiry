@@ -1,0 +1,228 @@
+*** WPEC Catalog Visibility and Email Inquiry Changelog ***
+
+= 2.3.0 - 2017/06/15 =
+* Tweak - Tested for compatibility with WordPress major version 4.8.0
+* Tweak - Tested for compatibility with WPEC major version 3.12.2
+* Tweak - WordPress Translation activation. Add text domain declaration in file header
+* Tweak - Change global $$variable to global ${$variable} for compatibility with PHP 7.0
+* Tweak - Update a3 Revolution to a3rev Software on plugins description
+* Tweak - Added Settings link to plugins description on plugins menu
+* Tweak - Updated plugins Description on wordpress.org with End of Development and Maintenance notice
+* Tweak - Removed tracking code from plugin
+* Tweak - Removed auto upgrading code from plugin
+* Tweak - Remove confirm license key form at first activate the plugin
+* Blog Notice- Read full details about the future of this plugin here https://a3rev.com/end-of-wp-e-commerce-development
+
+= 2.2.8 - 2016/04/22 =
+* Tweak - Tested for full compatibility with WP-eCommerce Version 3.11.2
+* Tweak - Tested for full compatibility with WordPress major version 4.5.0
+* Fix - call session_start() before html is printed on screen to fix PHP warning
+
+= 2.2.7 - 2015/09/08 =
+* Tweak - Tested for full compatibility with WP-eCommerce Version 3.10.1
+* Fix - Delete check new version transient when transient_timeout is deleted by WordPress 4.3 get_transients function so call to a3api for new version still works.
+* Fix - Change timeout of call to a3API for updates from 45 seconds to 8 seconds to resolve the server PHP timeout 30 seconds default. Server timeout before call finish was causing the 24 hour cron call not to be set and causing the dashboard to load slowly if a3API is not reachable.
+* Fix - Set 24 hours cron before call to a3API so that if have fail to connection then it will call in 24 hours on Cron instead of continue call each time Dashboard is loaded
+
+= 2.2.6 - 2015/08/24 =
+* Tweak - include new CSSMin lib from https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port into plugin framework instead of old CSSMin lib from http://code.google.com/p/cssmin/ , to avoid conflict with plugins or themes that have CSSMin lib
+* Tweak - make __construct() function for 'Compile_Less_Sass' class instead of using a method with the same name as the class for compatibility on WP 4.3 and is deprecated on PHP4
+* Tweak - change class name from 'lessc' to 'a3_lessc' so that it does not conflict with plugins or themes that have another Lessc lib
+* Tweak - Added new options into Settings -> Permalinks page on Dashboard
+* Tweak - Tested for full compatibility with WordPress major version 4.3.0
+* Tweak - Tested for full compatibility with WP-eCommerce major version 3.9.5
+* Fix - Check 'request_filesystem_credentials' function, if it does not exists then require the core php lib file from WP where it is defined
+
+= 2.2.5 - 2015/06/29 =
+* Tweak - Automatic delete the house keeping option of Lite version when upgrading from Lite to Pro version. Prevents data from being deleted on upgrade if the Lite Version Clean Up On Deletion option is was left switched ON before deactivating it to install the Pro version.
+* Tweak - Tested for full compatibility with WP e-Commerce version 3.9.4
+* Fix - Added fallback cron job schedule to fix License Key deactivation bug that occurs when call to server returns null for server name when checking key status for auto Maintenance and Feature upgrades
+
+= 2.2.4 - 2015/06/03 =
+* Tweak - Tested for full compatibility with WordPress Version 4.2.2
+* Tweak - Security Hardening. Removed all php file_put_contents functions in the plugin framework and replace with the WP_Filesystem API
+* Tweak - Security Hardening. Removed all php file_get_contents functions in the plugin framework and replace with the WP_Filesystem API
+* Fix - Update dynamic stylesheet url in uploads folder to the format //domain.com/ so it's always is correct when loaded as http or https
+
+= 2.2.3 - 2015/05/06 =
+* Tweak - Tested for full compatibility with WordPress Version 4.2.1
+* Fix - Removed check_ajax_referer() call on frontend for compatibility with PHP caching plugins. Was returning -1 to js success call-back.
+
+= 2.2.2 - 2015/04/24 =
+* Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.2.0
+* Tweak - Tested and Tweaked for full compatibility with WP e-Commerce Version 3.9.3
+* Tweak - Changed WP_CONTENT_DIR to WP_PLUGIN_DIR. When admin sets a custom WordPress file structure then it can get the correct path of plugin
+* Tweak - Update style of plugin framework. Removed the [data-icon] selector to prevent conflict with other plugins that have font awesome icons
+* Fix - Show the new plugin version on the Core Update page. Feature stopped working with WordPress version 4.1
+* Fix - Sass compile path not saving on windows xampp.
+
+= 2.2.1 - 2014/11/13 =
+* Fix - a3rev License code now recognises domain with and without the www. We believe that this will solve Licenses auto deactivating on some sites.
+
+= 2.2.0 - 2014/09/16 =
+* Feature - Converted all front end CSS #dynamic {stylesheets} to Sass #dynamic {stylesheets} for faster loading.
+* Feature - Convert all back end CSS to Sass.
+
+= 2.1.3.3 - 2014/09/09 =
+* Tweak - Updated google font face in plugin framework.
+* Tweak - Tested 100% compatible with WP e-Commerce 3.8.14.3
+* Tweak - Tested 100% compatible with WordPress Version 4.0
+
+= 2.1.3.2 - 2014/06/23 =
+* Tweak - Updated chosen js script to latest version 1.0.1 on the a3rev Plugin Framework
+* Tweak - Added support for placeholder feature for input, email , password , text area types
+* Tweak - Convert Lifetime License to single site purchase with add sites at discount feature.
+* Fixed - Add @ for called session_start() function for fixed the header warning
+
+= 2.1.3.1 - 2014/05/24 =
+* Tweak - Chnaged add_filter( 'gettext', array( $this, 'change_button_text' ), null, 2 ); to add_filter( 'gettext', array( $this, 'change_button_text' ), null, 3 );
+* Tweak - Update change_button_text() function from ( $original == 'Insert into Post' ) to ( is_admin() && $original === 'Insert into Post' )
+* Tweak - Checked and updated for full compatibility with WP e-Commerce Version 3.8.14.1 and WordPress version 3.9.1
+* Fix - Code tweaks to fix a3 Plugins Framework conflict with WP e-Commerce tax rates.
+
+= 2.1.3 - 2014/04/29 =
+* Tweak - a3rev Plugin Framework upgrade - all switch text show UPPERCASE
+* Tweak - Updated plugins wp-admin menu item vector image.
+* Tweak - Updated Framework help text font for consistency.
+* Tweak - Added remove_all_filters('mce_external_plugins'); before call to wp_editor to remove extension scripts from other plugins.
+* Tweak - Added Custom encode to prevent email clients automatically adding <a> tag to URL's in form message.
+* Tweak - Checked and updated for full compatibility with WP e-Commerce Version 3.8.13  and WordPress version 3.9
+* Fix - Email Inquiry sending duplicate emails on themes that have script that duplicate the click event
+
+= 2.1.2 - 2013/12/17 =
+* Feature - a3rev Plugin Framework admin interface upgraded to 100% Compatibility with WordPress v3.8.0 with backward compatibility.
+* Feature - a3rev framework 100% mobile and tablet responsive, portrait and landscape viewing.
+* Tweak - Upgraded dashboard switch and slider to Vector based display that shows when WordPress version 3.8.0 is activated.
+* Tweak - Upgraded all plugin .jpg icons and images to Vector based display for full compatibility with new WordPress version.
+* Tweak - Yellow sidebar on Quotes & Orders, Read More and Email Inquiry Ulimate Menus doe not show in Mobile screens to optimize screen space.
+* Tweak - Tested 100% compatible with WP 3.8.0
+* Fix - Update make_compatibility function with  isset( $args->slug ) and isset( $args['body']['request'] ) so that our plugin can work together with other developers plugin (eg Backupbuddy) that adds filter on the WordPress plugins_api (bad thing to do)
+
+= 2.1.1 - 2013/12/03 =
+* Feature - New Product Page Rule - Hide Product Price
+* Feature - Added Roles based Rules - Apply Rules after users log in on a per role basis for Hide the Cart, Hide the Price Rules and show Email Inquiry button Rules.
+* Feature - Independently of global settings - configure Product Page Rules and assigned Roles from each Product edit page.
+* Tweak - Added Rules & Roles Trouble Shooting text under Show | Hide switch on Rules and Roles menu and Email Inquiry settings menu.
+* Tweak - Changed Main menu item name to from WPEC Cat & Email to WPEC Catalog & Email Pro.
+* Tweak - Updated the WordPress plugins.php listing description text to reflect the new upgraded functionality of the plugin.
+* Fix - Replaced 'Hide Add to Cart' function .remove(); with .hide(); so that any other plugin that requires the add to cart function to hook to can still work e.g. WP e-Commerce Compare Products.
+* Fix - Upgraded array_textareas type for Padding, Margin settings on the a3rev plugin framework
+
+= 2.1.0 - 2013/11/30 =
+* Feature - Major plugin upgrade. Full code rework.
+* Feature - Upgraded the plugin to the newly developed a3rev admin Framework with app style interface.
+* Feature - Moved admin from wp dashboard > Settings > Store > Tab to own dashboard menu item called WPEC Catalog & Email.
+* Feature - WPEC Catalog & Email sub menus, Rules & Roles | Email Inquiry
+* Feature - Rules & Roles menu - Product Page Rule 'Hide add to Cart' - Added setting to ON or OFF for logged in users independent of not logged in users.
+* Feature - Added Product Page Rules Reset - Reset all custom product page settings to the Global Settings with the click of a button.
+* Feature - Email Inquiry menu broken up into tabs - Settings | Default Form | Button Style
+* Feature - Product Page Rule - Show Email Inquiry Button - Added setting to ON or OFF for logged in users independent of not logged in users.
+* Feature - Added 'Send Copy to sender' option. Turn ON and it adds '[ ] Send a copy of this email to myself' to the bottom of the pop-up email form.
+* Feature - Added Email Sender Options - Set the email 'From Name' and 'From Email Address' - essential addition now with the addition of the "Send Copy to Sender' feature.
+* Feature - Email Inquiry - Settings. Added option to set padding in px above and below the Email Inquiry button / Hyperlink.
+* Feature - Default Form Style - added form background colour setting.
+* Feature - Default Form Style - added Title font editor.
+* Feature - Default Form Style - added framework button creation features.
+* Feature - Added Global reset feature for Button or Hyperlink text settings.
+* Feature - New admin UI features check boxes replaced by switches, some dropdowns replaced by sliders.
+* Feature - Replaced colour picker with new WordPress 3.6.0 colour picker.
+* Feature - Added choice of 350 Google fonts to the existing 17 websafe fonts in all new single row font editor.
+* Feature - Added new border display effects - Double, Groove, Ridge, Inset, Outset.
+* Feature - Added border and button Square | Rounded corner settings. Set effect independently for each corner
+* Feature - New Border / Button shadow features. Create shadow Outer or Inner, set wide of shadow, shadow colour.
+* Feature - New on page instant previews for Fonts editor, create border and shadow style.
+* Feature - Added intuitive triggers for admin panel settings. When selected corresponding feature settings appear.
+* Feature - Added House Keeping function to settings. Clean up on Deletion. Option - If ever deleted (not deactivated) this plugin it will completely remove all tables and data it has created.
+* Tweak - Stricter sanitization of Default Form Message input field. Only allow input of plain text with auto paragraph on line break.
+* Tweak - Added function .replace(/^\s+|\s+$/g, '') to check form for empty spaces for required fields Name, Email and Phone.
+* Tweak - Default Form Success Message Pop-up auto resizes to whatever the tall of the success message content is.
+* Tweak - Pop-up tools wide under 520px shows 100% wide of the screen for mobiles in portrait or landscape.
+* Tweak - Default Form - added static 20px content padding that auto reduces to 5px in tablets and mobiles.
+* Tweak - 100% Compatibility with WordPress Version 3.7.1
+* Tweak - 100% Compatibility with WP e-Commerce version 3.8.12.1	.
+* Tweak - Rules and Roles - incorporate help message under each Rules Roles. Show when the Rule is turned on.
+* Fix - Default form success message showing HTML tags with text.
+* Fix - Did a full WP_DEBUG. All uncaught exceptions, notices, warnings and errors fixed.
+* Fix - Plugin still showing upgrade notification even though it is showing that current version is installed and active.
+* Fix - Fixed up all existing typos on admin panel.
+* Fix - Plugins admin script and style not loading in Firefox with SSL on admin. Stripped http// and https// protocols so browser will use the protocol that the page was loaded with.
+* Fix - Script validate email for default contact form. Old script conflicted with WordPress 3.6.0 jQuery 1.10.2. Conflict caused the popup tools to break.
+* Fix - Added box-sizing:content-box class attribute for compatibility with new WordPress Twenty Thirteen default theme.
+* Fix - stripslashes the value are entered in Inquiry email content.
+
+= 2.0.9 - 2013/06/28 =
+* Tweak - Added when install and activate plugin link redirects to License Key validation page instead of the wp-plugins dashboard.
+* Tweak - Updated the plugins support links to the new a3rev support forum.
+* Fix - Replaced hardcode iso-8859-1 charset to dynamic get_option('blog_charset')
+* Fix - Updated all JavaScript functions so that the plugin is compatible with jQuery Version1.9 and backwards to version 1.6. WordPress still uses jQuery version 1.8.3. In themes that use Google js Library instead of the WordPress jQuery then there was trouble because Google uses the latest jQuery version 1.9. There are a number of functions in jQuery Version 1.9 that have been depreciated and hence this was causing errors with the jQuery function in the plugin.
+* Fix - Removed Email form po-up pre-set 500px width. Replaced by auto wide from fancybox script.
+
+= 2.0.8 - 2013/04/22 =
+* Tweak - Updated all plugin code to be 100% compatible with the new WP e-Commerce version 3.8.10. The plugin is backward compatible with older version to 3.8.5
+
+= 2.0.7 - 2013/01/25 =
+* Tweak - Added an on screen attention message if no 'to' email address has been entered for the plugin and the WP e-Commerce store admin email address is empty.
+* Fix - Email Delivery address - when the plugin is installed if no Email delivery address is entered on the Catalog Visibility dashboard it now checks for WP e-Commerce Store Admin Email address and uses that if one has been entered. If it does not find a Store Admin Email Address, then it checks for and uses the WordPress admin email address.  Entering a 'to' email address on the plugins admin panel auto becomes the default 'to' email address.
+
+= 2.0.6 - 2013/01/19 =
+* Tweak - Added auto support for custom button type for 'add to cart' button so that our plugin can find the add to cart button on themes that use custom button code.
+* Tweak - Updated plugins support link url
+
+= 2.0.5 - 2012/12/31 =
+* Tweak - Updated plugin API to allow Pro Version License holders to manage their Licenses from the all new "My Account" dashboard on a3rev. Includes the option to see which domains each plugin is installed and activated on and the ability to deactivate the plugin on any domain from the 'My Account' > Manage Licenses dashboard.
+
+= 2.0.4 - 2012/11/29 =
+* Feature: Now supports WPMU - Pro Version Single License now works on any domain or sub domain that the Plugin is installed on with the WPMU environment.
+* Tweak - Change Pro Version plugin API call from cURL to now use WordPress auto update wp_remote_request function. This is to fix Pro License user who do not have cURL activated on their host not being able to install and activate the plugin.
+* Tweak - Built new Amazon EC2 plugin API to increase connection and download speed as well as reliability and uptime - plugin from this version calls to the new API.
+* Fix - Conflict with WordPress Domain Mapping plugin - thanks to Johannes for access to his WPMU install to find and fix this issue.
+* Fix - Change Pro Version plugin API call so that it only calls from the WP-Plugins page and not from every admin page.
+* Fix - Changed Pro Version plugin API call so that if it calls once to the API and it does not connect it auto aborts instead of keeping on trying to call.
+
+= 2.0.3 - 2012/08/29 =
+* Tweak - Add WordPress text editor hyperlinks libs to Success message editor so user can embed links into the success message that shows in the pop-up after email successfully sent. This allows them to direct users to another location right from the pop-up window.
+* Fix - Added missing script lib so that hyperlinks text can show as the Email pop-up window heading. Was using button title even when text link was the chosen option.
+* Fix - Pop up window showing html code when entered from success manager WordPress text editor.
+
+= 2.0.2 - 2012/08/27 =
+* Tweak - Plugin documentation completed.
+* Fix - Combined button and pop-up window style scripts in one script to overcome javascript conflict with some IE javascript styling scripts.* Tweak: Updated WordPress description text and readme to show the WP e-Commerce 3.8.8.5 do_action functions that must be included in themes for the Email Button to show. Some older themes don't have updated function and even though users have the 3.8.8.5 WP e-commerce version the button can't show.
+
+= 2.0.1 - 2012/08/25 =
+ Tweak - Removed left and right 10px float and set so button left / right float is the same as the add to cart button.
+* Fix - Moved style from header to footer to resolve plugin breaking themes css in IE 7, 8 and 9
+
+= 2.0.0 - 2012/08/22 =
+* Feature - Complete rebuild of the WPEC Product Email Inquiry Plugin and rename to WP e-Commerce Catalog Visibility and Email Inquiry
+* Feature - Replaced on page email form with an Email Inquiry Button and email pop-up form for much improved user interface
+* Feature - Complete admin user interface over haul to bring the plugin in line with WordPress user interface.
+* Feature - Added functionality to only show the feature on single product page if required.
+* Feature - Added Hyperlink text as Email Inquiry option
+* Feature - Added the ability to style the Email Inquiry button from the dashboard.
+* Feature - Added carbon copy cc email address.
+* Feature - Added option to add button style class from admin panel
+* Feature - Added Email pop-up styling options
+* Feature - Removed recipient email text editor and replaced with susses message that users see in the pop-up after submitting email which just makes a lot more sense.
+* Feature - Completely revamped on product page admin controls. Moved from sidebar to product meta.
+* Feature - Added the ability to uniquely set a product pages Catalog visibility independent of the global settings
+* Feature - Added can set unique primary email inquiry recipient and cc recipient.
+* Tweak - Move the admin from a sidebar link the the WP e-Commerce Store admin centre on a single tab.
+* Tweak - Existing WPEC Product Email Inquiry plugin users must deactivate it and install this plugin, activate it and then delete the old plugin.
+* Tweak - Code re-organized into folders with all files commented on and appropriate names as per WordPress Coding standards.
+* Tweak - Run WP_DEBUG check and fixed plugins 'undefined...' errors
+* Tweak - Changed plugins page URL and title and updated page content
+* Localization - Added localization with the inclusion of language file
+* Documentation - Created Plugin Docs page on the a3rev wiki.
+* Lite Version - Launched Plugin Lite Version on wordpress.org
+
+= 1.0.3 - 2012/04/02 =
+* Fix - Issue javascript show on header and hide Add to Cart button
+
+= 1.0.2 - 2011/12/29 =
+* Fix - Crash on dashboard
+
+= 1.0.1 - 2011/12/07 =
+* Tweak - Add auto update featured
+
+= 1.0 = - 2011/11/10
+* First working release.
